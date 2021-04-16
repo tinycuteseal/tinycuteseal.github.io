@@ -1,0 +1,36 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+}
+
+nav {
+    min-height: 60px;
+    background-color: rgba(48, 34, 138, .65);
+}
+
+.menu {
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    padding: 20px 70px;
+    margin: 0;
+    list-style-type: none;
+}
+
+#seal {
+    display: block;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 45px;
+}
+
+.menu .menu_link {
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+    text-decoration: none;
+}
